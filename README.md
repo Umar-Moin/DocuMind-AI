@@ -1,11 +1,11 @@
-# 🧠 DocuMind AI – Intelligent Document Assistant
+#  DocuMind AI – Intelligent Document Assistant
 
 An AI-powered document assistant that enables users to upload PDFs and interact with them using natural language queries.  
 Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, context-aware responses grounded in user-provided documents.
 
 ---
 
-## 🌟 Features
+##  Features
 
 - 📄 **PDF Document Upload & Parsing**
 - 🔍 **Semantic Search with FAISS**
@@ -16,7 +16,7 @@ Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, 
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ### Backend (FastAPI)
 - Handles document upload and processing
@@ -36,7 +36,7 @@ Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, 
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ### 1. Document Processing
 - PDF is loaded and parsed
@@ -53,7 +53,7 @@ Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, 
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Core
 - **Python**
@@ -61,7 +61,10 @@ Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, 
 - **LangChain**
 
 ### AI / ML
-- **OpenRouter / OpenAI (LLM & Embeddings)**
+- **Retrieval Augmented Generation**
+- **LLM Evaluation**
+- **Semantic Search**
+- **OpenRouter / OpenAI**
 - **FAISS (Vector Database)**
 
 ### Frontend
@@ -69,7 +72,7 @@ Built using a Retrieval-Augmented Generation (RAG) pipeline to ensure accurate, 
 
 ---
 
-## 🚀 Installation
+##  Installation
 ```bash
 git clone https://github.com/your-username/documind-ai.git
 cd documind-ai
@@ -98,16 +101,16 @@ uvicorn api:app --reload
 ````
 Open index.html in your browser to use the application.
 
-## 🎯 Usage
+##  Usage
 - Upload a PDF document
 - Click Process Files
 - Ask questions about the document
 - Receive context-aware answers
-## ⚠️ Limitations
+## Limitations
 - Answers are limited to uploaded documents (pure RAG system)
 - No external knowledge or web search integration
 - Performance depends on document structure and chunking strategy
-## 🔮 Future Improvements
+##  Future Improvements
 - Agentic AI (RAG + Web Search integration)
 - Multi-document support with memory
 - Cloud deployment with persistent storage
